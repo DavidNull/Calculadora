@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.brand {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+.display-screen {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #bdc3c7;
+}
+
+button.equal {
+    height: 120px;
+    width: 80px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+button.equal:hover {
+    background-color: #2980b9;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.name-text {
+    font-size: 24px;
+    color: #3498db;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.name-text:hover {
+    color: #2980b9;
+    size: 1px;
+}
